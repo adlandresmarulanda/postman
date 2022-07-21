@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "63f9eee1-3998-4197-8891-75392634c138",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Films",
+			"_postman_id": "ca948f1b-dec5-462c-a112-8a6e891ad3dc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://swapi.dev/api/films/"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "fa05f3a5-8556-475c-80a2-0efc7137ee93",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "286ec4c3-ebba-44b3-a089-959b41dbb89c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "82e35b12-8d10-4f05-9c22-ca96ab073d75",
+			"key": "Header",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"id": "dd039cb9-f752-4174-9015-088e4de561e4",
+			"key": "Key",
+			"value": "key",
+			"type": "string"
+		}
+	]
+}
